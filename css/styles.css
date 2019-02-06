@@ -1,0 +1,83 @@
+* {
+	box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Varela Round', sans-serif;
+	line-height: 1.6;
+  text-align: center;
+}
+
+p {
+  color: #696969;
+  font-size: 1.1em;
+  line-height: 1.4;
+}
+
+h1, h2 {
+  color: #330000;
+  font-weight: 400;
+  font-size: 1.4em;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+
+}
+
+ul li {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-transform: uppercase;
+  }
+
+nav li{
+  border-top: 10px solid white;
+}
+
+nav {
+  background: #ffe6e6;
+  margin-bottom: 40px;px;
+  }
+
+.name {
+  font-size: 1.5em;
+  }
+
+img {
+    width: 90%;
+  }
+
+.portfolio {
+    margin-bottom: 65px;
+    margin-top: 65px;
+  }
+
+.contact {
+  margin: 25% 0 25%;
+}
+
+.main-footer a, p {
+  display: block;
+}
+
+.main-footer a {
+  color: red;
+  float: right;
+}
+
+.main-footer p {
+  float: left;
+}
+
+
+
+/* clearfix */
+
+.clearfix::after {
+content: "";
+clear: both;
+display: table;
+}
