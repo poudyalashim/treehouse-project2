@@ -2,6 +2,10 @@
 	box-sizing: border-box;
 }
 
+* {
+  text-decoration: none;
+}
+
 
 body {
   font-family: 'Varela Round', sans-serif;
@@ -42,6 +46,11 @@ nav {
   margin-bottom: 40px;px;
   }
 
+a:hover {
+  color: red;
+  text-shadow: .8px .8px 0 #222;
+}
+
 .name {
   font-size: 1.5em;
   }
@@ -56,21 +65,94 @@ img {
   }
 
 .contact {
-  margin: 25% 0 25%;
+  margin: 25% 0 15%;
 }
 
-.main-footer a, p {
-  display: block;
-}
-
-.main-footer a {
-  color: red;
-  float: right;
+.main-footer {
+  border-top: 5px dashed #280000;
+  padding-top: 15px;
 }
 
 .main-footer p {
+  display: inline-block;
+  margin-right: 45%;
+}
+
+/* media queries */
+
+@media (min-width: 768px) {
+
+    .wrapper {
+      width: 80%;
+      margin: 0 auto;
+			max-width: 1150px;
+
+    }
+
+
+
+    .main-nav {
+      float: right;
+			margin-right: 36%;
+			background: none;
+		}
+
+    .main-nav li {
+      float: left;
+			padding-right: 21px;
+			text-align: center;
+			padding-top: .05%;
+			vertical-align: top;
+		}
+
+		.pic {
+			float: right;
+		 }
+
+    .profile {
+			 width: 50%;
+			 padding: 5px 15px 50px 15px;
+		}
+
+		.portfolio {
+			margin-top: 25%;
+
+		}
+
+
+
+.marketing,
+.search,
+.travel,
+.map,
+.photo,
+.calculator {
+  width: 50%;
+
+}
+
+.pro {
   float: left;
 }
+
+.all p {
+	color: 440000;
+	font-size: 1em;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 50px;
+}
+
+.all h2 {
+	font-size: 1em;
+	font-weight: bold;
+}
+
+
+}
+
+
+
 
 
 
