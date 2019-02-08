@@ -3,157 +3,288 @@
 }
 
 * {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 
 body {
-  font-family: 'Varela Round', sans-serif;
+	font-family: 'Varela Round', sans-serif;
 	line-height: 1.6;
-  text-align: center;
+	text-align: center;
 }
 
 p {
-  color: #696969;
-  font-size: 1.1em;
-  line-height: 1.4;
+	color: #696969;
+	font-size: 1.1em;
+	line-height: 1.4;
 }
 
 h1, h2 {
-  color: #330000;
-  font-weight: 400;
-  font-size: 1.4em;
+	color: #330000;
+	font-weight: 400;
+	font-size: 1.4em;
 }
 
 ul {
-  list-style-type: none;
-  padding-left: 0;
+	list-style-type: none;
+	padding-left: 0;
 
 }
 
 ul li {
-  padding-bottom: 10px;
-  padding-top: 10px;
-  text-transform: uppercase;
-  }
+	padding-bottom: 10px;
+	padding-top: 10px;
+	text-transform: uppercase;
+}
 
 nav li{
-  border-top: 10px solid white;
+	border-top: 10px solid white;
 }
 
 nav {
-  background: #ffe6e6;
-  margin-bottom: 40px;px;
-  }
+	background: #ffe6e6;
+	margin-bottom: 40px;px;
+}
 
 a:hover {
-  color: red;
-  text-shadow: .8px .8px 0 #222;
+	color: red;
+	text-shadow: .8px .8px 0 #222;
 }
 
 .name {
-  font-size: 1.5em;
-  }
+	font-size: 1.5em;
+}
 
 img {
-    width: 90%;
-  }
+	width: 90%;
+}
 
 .portfolio {
-    margin-bottom: 65px;
-    margin-top: 65px;
-  }
+	margin-bottom: 65px;
+	margin-top: 65px;
+}
+
+.skills {
+	margin-top: -5%
+	margin-bottom: 26%;
+	font-size: 3em;
+	color: #000000;
+}
+
+.skills img {
+	width: 30%;
+}
+
+.skills h3 {
+	font-family: lucida handwriting;
+	text-shadow: 2px 3px 0 #adff28;
+	font-weight: 1000%;
+	border: 1px solid forestgreen;
+	border-top: 1px solid #4961e1;
+	/* border-bottom: 1px solid forestgreen;
+	border-right: 1px solid forestgreen;
+	border-left: 1px solid forestgreen; */
+	box-shadow: 5px 10px 2px #4961e1;
+	padding-left: 2px;
+	padding-right: 2px;
+	text-transform:capitalize;
+}
 
 .contact {
-  margin: 25% 0 15%;
+	margin: 10% 0 15%;
 }
 
 .main-footer {
-  border-top: 5px dashed #280000;
-  padding-top: 15px;
+	border-top: 5px dashed #280000;
+	padding-top: 15px;
 }
 
 .main-footer p {
-  display: inline-block;
-  margin-right: 45%;
+	display: inline-block;
+	margin-right: 40%;
+}
+
+.main-footer ul{
+	display: none;
 }
 
 /* media queries */
 
 @media (min-width: 768px) {
 
-    .wrapper {
-      width: 80%;
-      margin: 0 auto;
-			max-width: 1150px;
+	.wrapper {
+	width: 80%;
+	margin: 0 auto;
+	}
 
-    }
+	.name {
+	margin-right: -1%;
+	margin-bottom: -1%;
+	}
+
+	.main-nav {
+	float: right;
+	margin-right: 32%;
+	background: none;
+	}
+
+	.main-nav li {
+	float: left;
+	padding-right: 10px;
+
+	max-width: 1024px;
+
+	}
+
+	.pic {
+	float: right;
+	}
+
+	.profile {
+	width: 50%;
+	padding: 5px 15px 50px 15px;
+	}
+
+	.portfolio {
+	margin-top: 30%;
+	margin-left: -5%;
+	max-width: 1024px;
+	}
+
+	.marketing,
+	.search,
+	.travel,
+	.map,
+	.photo,
+	.calculator {
+	width: 50%;
+	margin-left: 30px;
+	}
 
 
 
-    .main-nav {
-      float: right;
-			margin-right: 36%;
-			background: none;
-		}
-
-    .main-nav li {
-      float: left;
-			padding-right: 21px;
-			text-align: center;
-			padding-top: .05%;
-			vertical-align: top;
-		}
-
-		.pic {
-			float: right;
-		 }
-
-    .profile {
-			 width: 50%;
-			 padding: 5px 15px 50px 15px;
-		}
-
-		.portfolio {
-			margin-top: 25%;
-
-		}
-
-
-
-.marketing,
-.search,
-.travel,
-.map,
-.photo,
-.calculator {
-  width: 50%;
-
-}
-
-.pro {
-  float: left;
-}
-
-.all p {
-	color: 440000;
+	.all p {
+	color: #440000;
 	font-size: 1em;
 	margin-left: 20px;
 	margin-right: 20px;
 	margin-bottom: 50px;
-}
+	}
 
-.all h2 {
+	.all h2 {
 	font-size: 1em;
 	font-weight: bold;
-}
+	}
+
+
+
+	.all {
+	margin: auto;
+	max-width: 100%;
+	}
+
+	.pro {
+	float: left;
+	width: 100%;
+	max-width: 45%;
+	margin: auto;
+	}
+
+	.top {
+		display: none;
+	}
+
+	.main-footer ul {
+		display: inline-block;
+	}
+
+	.main-footer li {
+		float: left;
+		padding-right: 25px;
+		padding-bottom:
+	}
+
+	.main-footer ul {
+		margin-left: 4.5%;
+	}
+
+	.main-name {
+		margin-top:
+	}
 
 
 }
 
 
+@media (min-width: 1024px) {
+
+	.wrapper {
+	width: 80%;
+	margin: 0 auto;
+	}
+
+.name {
+	float: left;
+	margin-left: 10%;
+}
+	.main-nav {
+	float: right;
+	margin-right: 15%;
+	background: none;
+	}
+
+	.main-nav li {
+	float: left;
+	padding-right: 21px;
+	text-align: center;
+	padding-top: .05%;
+	}
+
+	.profile {
+		width: 42%;
+	}
+
+	.portfolio {
+		margin-right: -7%;
+		margin-top: 25%;
+		max-width: 1200px;
+	}
+
+	.marketing,
+	.search,
+	.travel,
+	.map,
+	.photo,
+	.calculator {
+	width: 33%;
+
+	}
+
+	.pro {
+		float: left;
+	}
+
+	.top {
+		display: none;
+	}
+
+	.main-footer ul {
+		display: inline-block;
+	}
+
+	.main-footer li {
+		float: left;
+		padding-right: 20px;
+
+	}
+
+	.main-footer ul {
+		margin-left: 26%;
+}
 
 
+
+}
 
 
 /* clearfix */
