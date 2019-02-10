@@ -43,8 +43,8 @@ nav li{
 
 nav {
 	background: #ffe6e6;
-	margin-bottom: 40px;px;
-}
+	margin-bottom: 40px;
+	}
 
 a:hover {
 	color: red;
@@ -69,10 +69,12 @@ img {
 	margin-bottom: 26%;
 	font-size: 3em;
 	color: #000000;
+	text-align: center;
 }
 
 .skills img {
-	width: 30%;
+	width: 40%;
+	margin-left: 5%;
 }
 
 .skills h3 {
@@ -101,6 +103,7 @@ img {
 	border-top: 2px dashed #280000;
 	padding-top: 15px;
 	margin: 0 2% 0 2%;
+
 }
 
 .main-name {
@@ -111,6 +114,10 @@ img {
 
 .main-footer ul{
 	display: none;
+}
+
+.top {
+	margin-left: -10%;
 
 }
 
@@ -121,10 +128,7 @@ img {
 	.wrapper {
 	width: 80%;
 	margin: 0 auto;
-  min-height: calc(100vh-89px);
-	}
-
-
+  }
 
 	.name {
 	margin-right: -1%;
@@ -140,9 +144,8 @@ img {
 	.main-nav li {
 	float: left;
 	padding-right: 10px;
-
 	max-width: 1024px;
-
+	vertical-align: top;
 	}
 
 	.pic {
@@ -170,6 +173,14 @@ img {
 	margin-left: 30px;
 	}
 
+	.pro {
+	float: left;
+	width: 100%;
+	max-width: 48%;
+	margin: 0 auto;
+	}
+
+
 
 
 	.all p {
@@ -192,15 +203,14 @@ img {
 	max-width: 100%;
 	}
 
-	.pro {
-	float: left;
-	width: 100%;
-	max-width: 48%;
-	margin: auto;
-	}
+
 
 	.top {
 		display: none;
+	}
+
+	.name {
+		margin: auto;
 	}
 
 	.main-footer ul {
@@ -213,45 +223,28 @@ img {
 		padding-bottom:
 	}
 
+
 	.main-footer ul {
-		margin-left: 4.5%;
+		margin-left: 0 auto;
 	}
 
 	main-footer p {
 		display: inline-block;
-		margin-right: 70%;
+		margin-right: 0 auto;
 		max-width: 768px;
 	}
-
-	}
-
-
-	/* .main-footer {
-		border-top: 2px dashed #280000;
-		padding-top: 15px;
-		margin: 0 2% 0 2%;
-	}
-
-	.main-footer p {
-		display: inline-block;
-		margin-right: 40%;
-		max-width: 768px;
-	}
-
-	.main-footer ul{
-		display: none;
-	} */
-
 
 }
+
 
 
 @media (min-width: 1024px) {
 
 	.wrapper {
 	width: 80%;
-	margin: 0 auto;
+	margin: auto;
 	}
+
 
 .name {
 	float: left;
@@ -277,7 +270,7 @@ img {
 	.portfolio {
 		margin-right: -7%;
 		margin-top: 25%;
-		max-width: 1200px;
+
 	}
 
 	.marketing,
@@ -287,7 +280,6 @@ img {
 	.photo,
 	.calculator {
 	width: 33%;
-
 	}
 
 	.pro {
@@ -302,7 +294,12 @@ img {
 		display: inline-block;
 	}
 
-	.main-footer li {
+	.main-name {
+		margin-right: 58%;
+		margin-top: -1%;
+	}
+
+	/* .main-footer li {
 		float: left;
 		padding-right: 20px;
 
@@ -310,7 +307,7 @@ img {
 
 	.main-footer ul {
 		margin-left: 26%;
-}
+	} */
 
 
 
