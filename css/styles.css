@@ -50,12 +50,12 @@ a:hover {
 	text-shadow: .8px .8px 0 #222;
 }
 
-a:active {
-	color: green;
+a:focus {
+	color: lightblue;
 }
 
-a:visited {
-	color: black;
+a:link {
+	color: forestgreen;
 }
 
 .name {
@@ -147,6 +147,8 @@ img {
 	width: 80%;
 	margin: 0 auto;
   }
+
+
 
 	.name {
 	margin-right: -1%;
@@ -299,7 +301,7 @@ img {
 	}
 
 	.portfolio {
-		margin-right: -7%;
+		margin-right: 2%;
 		margin-top: 25%;
 
 	}
@@ -310,7 +312,10 @@ img {
 	.map,
 	.photo,
 	.calculator {
-	width: 33%;
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+
 	}
 
 	.pro {
