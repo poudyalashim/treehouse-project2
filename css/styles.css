@@ -77,11 +77,13 @@ img {
 }
 
 .skills {
-	margin-top: -5%
-	margin-bottom: 26%;
+	margin-bottom: 5px;
 	font-size: 3em;
 	color: #000000;
 	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+
 }
 
 .skills img {
@@ -92,12 +94,9 @@ img {
 .skills h3 {
 	font-family: lucida handwriting;
 	text-shadow: 2px 3px 0 #adff28;
-	font-weight: 1000%;
+	font-weight: 100;
 
-	border-bootom: 1px solid #4961e1;
-	/* border-bottom: 1px solid forestgreen;
-	border-right: 1px solid forestgreen;
-	border-left: 1px solid forestgreen; */
+	border-bottom: 1px solid #4961e1;
 	box-shadow: 8px 10px 8px #4961e1;
 	padding-left: 2px;
 	padding-right: 2px;
@@ -252,17 +251,16 @@ img {
 	.main-footer li {
 		float: left;
 		padding-right: 25px;
-		padding-bottom:
 	}
 
 
 	.main-footer ul {
-		margin-left: 0 auto;
+		margin-left: auto;
 	}
 
 	main-footer p {
 		display: inline-block;
-		margin-right: 0 auto;
+		margin-right: auto;
 		max-width: 768px;
 	}
 
