@@ -122,7 +122,12 @@ img {
 	display: inline-block;
 	margin-right: 40%;
 	margin-top: -1px;
+	float: left;
 
+}
+
+.main-footer a {
+	float: right;
 }
 
 .main-footer ul{
