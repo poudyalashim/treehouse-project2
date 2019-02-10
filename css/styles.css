@@ -54,8 +54,17 @@ a:active {
 	color: green;
 }
 
+a:visited {
+	color: black;
+}
+
 .name {
 	font-size: 1.5em;
+}
+
+.profile-pic {
+	font-family: cursive;
+	font-size: 22px;
 }
 
 img {
